@@ -261,7 +261,7 @@ export default function Index() {
                         : 'bg-secondary text-secondary-foreground rounded-bl-none'
                     }`}
                   >
-                    <p className="text-sm">{message.content}</p>
+                    <p className="text-sm font-normal m-20 p-16 rounded-full">{message.content}</p>
                     <p className="text-xs opacity-70 mt-1">
                       {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                     </p>
